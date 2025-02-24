@@ -1,0 +1,43 @@
+/* Style the background color of body as grey */
+body{
+    background-color: grey;
+}
+
+/* Style the background color of h1 header as yellow and color as red */
+h1{
+    background-color: yellow;
+    color: red;
+}
+
+
+
+/* Style the background color of all the p's outside div as powderblue and color as black */
+
+body>p{
+    background-color: powderblue;
+    color: black;
+}
+/* Style the background color of all the p's inside div as orange and color as blue */
+div p{
+    background-color: orange;
+    color: blue;
+}
+
+
+
+/* Style the background color of all p's directly inside div as cyan and color as brown */
+
+div>p{
+    background-color: yellow;
+    color: brown;
+}
+
+.nesteddiv p{
+    background-color: pink;
+    color: black;
+}
+
+#firstp{
+    background-color: navy;
+    color: white;
+}
