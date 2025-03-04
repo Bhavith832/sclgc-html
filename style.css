@@ -1,35 +1,4 @@
-h1
-            {
-                font-style: cursive;
-                color:red;
-                background-color: black;
-                text-align: center;
-                
-            }
-
-            p
-            {
-                color: black;
-                background-color: yellow;
-
-            }
-
-            h2
-            {
-                color: blue;
-                background-color: yellow;
-
-            }
-
-            p
-            {
-                color: black;
-                background-color: blueviolet;
-
-            }
-
-            p
-            {
-                color: black;
-                background-color: yellow;
-            }
+h1{
+    background-color: powderblue;
+    font-family: 'Courier New';
+}

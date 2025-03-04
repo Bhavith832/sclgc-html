@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>selector</title>
+        <style type="text/css">
+            div h1{
+                background-color: aquamarine;
+            }
 
-<head>
-    <titile>CSS Web page</titile>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+           
+            div > h2{
+                background-color: blue;
+                 
+            }
 
-<body>
-    <h1>Full Stack web development</h1>
+            .abc >h1{
+                background-color: bisque;
+            }
 
-    <p>Full stack development refers to the development of both front end(client side) and back end server side portion
-        of web application</p>
-    <h2>Technolodies related to full stack web development</h2>
-    <p><b>Front End Technologies</b></p>
-    <p>Front End is the visible part of wesite or web application which is responsible for user experience. bull using
-        HTML CSS JAVASCRIPT</p>
-</body>
+    
 
+        </style>
+    </head>
+    <body>
+        <div>
+        <h1>decedent selector.</h1>
+        <p><span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, tempora?</span></p>
+
+        <h2>child selector.</h2>
+        <p><span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, tempora?</span></p>
+        
+        <h1> selector.</h1>
+        <p><span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, tempora?</span></p>
+
+        </div>
+
+        <div class="abc">
+            <h1>decedent selector.</h1>
+            <p><span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, tempora?</span></p>
+    
+        </div> 
+    </body>
 </html>
