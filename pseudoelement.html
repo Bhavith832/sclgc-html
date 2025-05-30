@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example</title>
+    <style type="text/css">
+        p::first-line {
+            color: orange;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        p::first-letter {
+            color: purple;
+            font-family: cursive;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        h1::before {
+            content: '{';
+            color: orange;
+        }
+        h1::after {
+            content: '}';
+            color: orange;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>HTML</h1>
+    <p>Hypertext Markup Language (HTML) is the 
+        standard markup language for documents designed to 
+        be displayed in a web browser. 
+        It can be assigned by 
+        technologies such as Cascading style sheets (CSS) and scripting languages such as JavaScript.</p>
+</body>
+</html>
